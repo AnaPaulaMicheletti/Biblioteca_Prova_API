@@ -1,0 +1,37 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Prova da disciplina de Desenvolvimento Back-end do curso de Engenharia de Software - 4P",
+  "keywords": [
+    "back-end",
+    "ts",
+    "api",
+    "biblioteca",
+    "order"
+  ],
+  "homepage": "https://github.com/AnaPaulaMicheletti/Biblioteca_Prova_API#readme",
+  "bugs": {
+    "url": "https://github.com/AnaPaulaMicheletti/Biblioteca_Prova_API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaPaulaMicheletti/Biblioteca_Prova_API.git"
+  },
+  "license": "(ISC)",
+  "author": "Ana Paula Micheletti",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "express": "^5.2.1"
+  }
+}
